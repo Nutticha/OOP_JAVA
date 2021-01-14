@@ -1,4 +1,4 @@
-package src.Lab2;
+package Lab2;
 
 public class Lab2_3 {
     // package Lab2;

@@ -1,4 +1,4 @@
-package src.Lab2;
+package Lab2;
 
 public class Runtest2_7 {
     
