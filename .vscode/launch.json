@@ -1,0 +1,161 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Homework_1",
+            "request": "launch",
+            "mainClass": "Homework_1",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Homework_2",
+            "request": "launch",
+            "mainClass": "Homework_2",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Homework_3",
+            "request": "launch",
+            "mainClass": "Homework_3",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Homework_4",
+            "request": "launch",
+            "mainClass": "Homework_4",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab2_1",
+            "request": "launch",
+            "mainClass": "Lab2.Lab2_1",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab2_2",
+            "request": "launch",
+            "mainClass": "Lab2.Lab2_2",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab2_3",
+            "request": "launch",
+            "mainClass": "Lab2.Lab2_3",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab2_4",
+            "request": "launch",
+            "mainClass": "Lab2.Lab2_4",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab2_5",
+            "request": "launch",
+            "mainClass": "Lab2.Lab2_5",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab2_6",
+            "request": "launch",
+            "mainClass": "Lab2.Lab2_6",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Runtest2_7",
+            "request": "launch",
+            "mainClass": "Lab2.Runtest2_7",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab3_1",
+            "request": "launch",
+            "mainClass": "Lab3.Lab3_1",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab3_2",
+            "request": "launch",
+            "mainClass": "Lab3.Lab3_2",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab3_3",
+            "request": "launch",
+            "mainClass": "Lab3.Lab3_3",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab3_4",
+            "request": "launch",
+            "mainClass": "Lab3.Lab3_4",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab3_5",
+            "request": "launch",
+            "mainClass": "Lab3.Lab3_5",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab3_6",
+            "request": "launch",
+            "mainClass": "Lab3.Lab3_6",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab3_7",
+            "request": "launch",
+            "mainClass": "Lab3.Lab3_7",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab3_8",
+            "request": "launch",
+            "mainClass": "Lab3.Lab3_8",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunHomework",
+            "request": "launch",
+            "mainClass": "RunHomework",
+            "projectName": "OOP_JAVA_80e88508"
+        }
+    ]
+}
