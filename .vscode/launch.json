@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Vehicle",
+            "request": "launch",
+            "mainClass": "Lab4.Vehicle",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestEmployee",
+            "request": "launch",
+            "mainClass": "Lab6.Employee1.TestEmployee",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestEmployee",
+            "request": "launch",
+            "mainClass": "Lab6.Employee2.TestEmployee",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestEmployee",
+            "request": "launch",
+            "mainClass": "Lab6.Employee.TestEmployee",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
