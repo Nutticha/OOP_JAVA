@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Lab4_2",
+            "request": "launch",
+            "mainClass": "Lab4.Lab4_2",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab4_1",
+            "request": "launch",
+            "mainClass": "Lab4.Lab4_1",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch fooddiscount",
+            "request": "launch",
+            "mainClass": "Lab4.Lab4_5.fooddiscount",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calarea",
+            "request": "launch",
+            "mainClass": "Lab4.Lab4_5.Calarea",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
             "name": "Launch Vehicle",
             "request": "launch",
             "mainClass": "Lab4.Vehicle",
