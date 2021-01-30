@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Homework_if_03",
+            "request": "launch",
+            "mainClass": "Homework_if_03",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Homework_if_04",
+            "request": "launch",
+            "mainClass": "Homework_if_04",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Homework_if_06",
+            "request": "launch",
+            "mainClass": "Homework_if_06",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Homework_if_05",
+            "request": "launch",
+            "mainClass": "Homework_if_05",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
             "name": "Launch Lab4_2",
             "request": "launch",
             "mainClass": "Lab4.Lab4_2",
