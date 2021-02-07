@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch triskaidekaphobia",
+            "request": "launch",
+            "mainClass": "triskaidekaphobia",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch factorial",
+            "request": "launch",
+            "mainClass": "factorial",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch grame",
+            "request": "launch",
+            "mainClass": "grame",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch HW03",
+            "request": "launch",
+            "mainClass": "Lab4.HW03",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch HW02",
+            "request": "launch",
+            "mainClass": "Lab4.HW02",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
             "name": "Launch Homework_if_03",
             "request": "launch",
             "mainClass": "Homework_if_03",
