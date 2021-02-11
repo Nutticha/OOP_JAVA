@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch testLab5_2",
+            "request": "launch",
+            "mainClass": "Homework.testLab5_2",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch test5_3",
+            "request": "launch",
+            "mainClass": "Homework.test5_3",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch test5_2",
+            "request": "launch",
+            "mainClass": "Homework.test5_2",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab5_6",
+            "request": "launch",
+            "mainClass": "Lab5.Lab5_6",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab5_5",
+            "request": "launch",
+            "mainClass": "Lab5.Lab5_5",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab5_4",
+            "request": "launch",
+            "mainClass": "Lab5.Lab5_4",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab5_3",
+            "request": "launch",
+            "mainClass": "Lab5.Lab5_3",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab5_2",
+            "request": "launch",
+            "mainClass": "Lab5.Lab5_2",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab5_1",
+            "request": "launch",
+            "mainClass": "Lab5.Lab5_1",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
             "name": "Launch HW01",
             "request": "launch",
             "mainClass": "Lab4.HW01",
