@@ -2,21 +2,27 @@ package Lab4;
 import java.util.Scanner;
 public class HW03 {
     public static void main(String[] args) {
-        double num;
         Scanner scan = new Scanner(System.in);
-        
+        int number, sum;
 
-        do{
-            System.out.print("Enter  positive number or -1 to Quit : ");
-            num = scan.nextInt();
-
-            if(num / 2 == 0){
-                System.out.println("Number " + num + " is prime number");
+        System.out.print("Enter positive number : ");
+        number = scan.nextInt();
+        if (number == 0 || number == 1) {
+            System.out.print("Number " + number + " is not prime number.");
+        } else {
+            sum = number / 2;
+            boolean x = true;
+            for (int i = 2; i < sum; i++) {
+                if (number % i == 0) {
+                    System.out.print("Number " + number + " is not prime number.");
+                    x = false;
+                    break;
+                }
             }
-            else{
-                System.out.println("Number " + num + " is not prime number");
+            if( x ){
+                System.out.print("Number " + number + " is prime number." );
             }
+        }
 
-        }while(num != -1);
     }
 }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HW01",
+            "request": "launch",
+            "mainClass": "Lab4.HW01",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
             "name": "Launch triskaidekaphobia",
             "request": "launch",
             "mainClass": "triskaidekaphobia",
