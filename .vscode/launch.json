@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Homework_Lab5_3",
+            "request": "launch",
+            "mainClass": "Homework.Homework_Lab5_3",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Homework_Lab5_1",
+            "request": "launch",
+            "mainClass": "Homework.Homework_Lab5_1",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
             "name": "Launch testLab5_2",
             "request": "launch",
             "mainClass": "Homework.testLab5_2",
