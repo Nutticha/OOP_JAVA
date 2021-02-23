@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Homework_array_grade",
+            "request": "launch",
+            "mainClass": "Homework.Homework_array_grade",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Homework_Lab5_2",
+            "request": "launch",
+            "mainClass": "Homework.Homework_Lab5_2",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
             "name": "Launch Homework_Lab5_3",
             "request": "launch",
             "mainClass": "Homework.Homework_Lab5_3",

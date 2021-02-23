@@ -1,34 +1,30 @@
 package Homework;
+
 import javax.swing.JOptionPane;
+import javax.swing.JTextArea;
 public class Homework_Lab5_3 {
-    static int num;
-    static String num1 , star ,Char;
-
-    public static void main(String[] args) {
-        do{
-            num1 = JOptionPane.showInputDialog("Enter number or endprogram -1 :");
-            num = Integer.parseInt(num1);
-    
-        }while(num != -1);
-        
-       Char = printChar(num);
-       String output = num + " : " + Char ;
-        JOptionPane.showMessageDialog(null, output, "Histogram", JOptionPane.INFORMATION_MESSAGE);
-        System.exit(0);
-    }
-
-    public static String printChar(int n) {
-        
-        for(int i = 1 ; i <= n ; i++){
-            for(int j = 1 ; j <= i ; j++){
-                star += " * ";
-            }
-          star += " ";
-        }
-
-        return star;
-
-    }
-
-    
+	String input;
+	int num = 0;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		JTextArea outputArea = new JTextArea();
+		Homework_Lab5_3 load = new Homework_Lab5_3();
+		String output ;
+		while(load.num != -1){
+			load.input = JOptionPane.showInputDialog(null,"Enter number : ");
+			load.num = Integer.parseInt(load.input);
+			output = printChar(load.num);
+			if(load.num>=0){
+				outputArea.append(load.num + " : " + output + "\n");
+			}
+		}
+		JOptionPane.showMessageDialog(null, outputArea,"Histogram",JOptionPane.INFORMATION_MESSAGE);
+	}
+	public static String printChar(int num){
+		String s ="";
+		for(int i=1;i<=num;i++){
+				s+="*";
+		}
+		return s;
+	}
 }
