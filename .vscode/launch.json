@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RandomNumber5",
+            "request": "launch",
+            "mainClass": "Homework.RandomNumber5",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
             "name": "Launch Homework_array_grade",
             "request": "launch",
             "mainClass": "Homework.Homework_array_grade",
