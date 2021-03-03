@@ -15,14 +15,20 @@ public class HW01 {
 
         System.out.println();
         int i = 0;
-        for(i = fnumber;i <= lnumber;i++){
-            if((i % 3 == 0 )&&( i % 5 == 0)){
-                System.out.print( i +"\t");
-                divide++;
-                if(divide % PER_LINE == 0)
-                    System.out.println();
-            }
-            
+     
+            for(i = fnumber;i <= lnumber;i++){
+           
+                if ((i % 3 == 0) && (i % 5 == 0)) {
+                    System.out.print(i + "\t");
+                    divide++;
+                    if (divide % PER_LINE == 0)
+                        System.out.println();
+                }
         }
+        
+            
+            
+            
+        
     }
 }

@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Lab6_6",
+            "request": "launch",
+            "mainClass": "Lab6.Lab6_6",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab6_5",
+            "request": "launch",
+            "mainClass": "Lab6.Lab6_5",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab6_4",
+            "request": "launch",
+            "mainClass": "Lab6.Lab6_4",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab6_2",
+            "request": "launch",
+            "mainClass": "Lab6.Lab6_2",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab6_1",
+            "request": "launch",
+            "mainClass": "Lab6.Lab6_1",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
             "name": "Launch RandomNumber5",
             "request": "launch",
             "mainClass": "Homework.RandomNumber5",
