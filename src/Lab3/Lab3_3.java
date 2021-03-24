@@ -1,7 +1,5 @@
 package Lab3;
-
 public class Lab3_3 {
-    
         public static void main(String[] args) {
         int a = 10, b = 6;
         double y;

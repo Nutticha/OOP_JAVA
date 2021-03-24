@@ -1,5 +1,4 @@
 package Lab2;
-
 public class Lab2_1 {
     // package Lab2;
 // Lab 2-1

@@ -15,7 +15,5 @@ public class Homework_Lab5_2 {
 			return 0;
 		}
 		return 1+ countDigit(number / 10);
-	}
-
-    
+	}  
 }

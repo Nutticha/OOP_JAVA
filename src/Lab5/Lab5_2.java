@@ -1,8 +1,6 @@
 package Lab5;
-
 // File Name : Lab5_2.java
 import javax.swing.JOptionPane;
-
 public class Lab5_2 {
     public static void main(String[] args) {
         double number1, number2, number3;

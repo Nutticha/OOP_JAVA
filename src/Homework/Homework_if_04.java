@@ -1,16 +1,12 @@
 package Homework;
-
 import java.util.Scanner;
 public class Homework_if_04 {
     static int nummonth = 0;
-
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("***** Shows the English letters according to the numbers entered. *****");
         System.out.print("Enter number :");
         nummonth = scan.nextInt();
-
-    
         switch(nummonth){
             case 1 : System.out.println("A or a");
             break;
@@ -65,9 +61,6 @@ public class Homework_if_04 {
             case 26 : System.out.println("Z or z");
             break;
             default:System.out.println("Error!! English language cannot be displayed, but only the numbers 1 - 26 are obtained. ");
-            
-        
-
     }
         
 

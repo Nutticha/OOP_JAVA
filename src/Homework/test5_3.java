@@ -6,11 +6,8 @@ public class test5_3 {
         String output = "";
         int num , num1;
         String s1, s2;
-         
-
         s1 = JOptionPane.showInputDialog("Enter start number: ");
         s2 = JOptionPane.showInputDialog("Enter end number :");
-
         num = Integer.parseInt(s1);
         num1 = Integer.parseInt(s2);
         // loop 20 times

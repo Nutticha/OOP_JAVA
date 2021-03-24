@@ -6,6 +6,125 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Vehicle1",
+            "request": "launch",
+            "mainClass": "Lab4.Vehicle1",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch RankVehicle1",
+            "request": "launch",
+            "mainClass": "Lab4.RankVehicle1",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab04_5",
+            "request": "launch",
+            "mainClass": "Lab4.Lab04_5",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab4_4",
+            "request": "launch",
+            "mainClass": "Lab4.Lab4_4",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab4_3",
+            "request": "launch",
+            "mainClass": "Lab4.Lab4_3",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Homework_if_06",
+            "request": "launch",
+            "mainClass": "Homework.Homework_if_06",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Homework_if_05",
+            "request": "launch",
+            "mainClass": "Homework.Homework_if_05",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Homework_if_04",
+            "request": "launch",
+            "mainClass": "Homework.Homework_if_04",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Homework_if_03",
+            "request": "launch",
+            "mainClass": "Homework.Homework_if_03",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Homework_4",
+            "request": "launch",
+            "mainClass": "Homework.Homework_4",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Homework_3",
+            "request": "launch",
+            "mainClass": "Homework.Homework_3",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Homework_2",
+            "request": "launch",
+            "mainClass": "Homework.Homework_2",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Homework_1",
+            "request": "launch",
+            "mainClass": "Homework.Homework_1",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch gramechar",
+            "request": "launch",
+            "mainClass": "Homework.gramechar",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch grame",
+            "request": "launch",
+            "mainClass": "Homework.grame",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch factorial",
+            "request": "launch",
+            "mainClass": "Homework.factorial",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch againstallodds",
+            "request": "launch",
+            "mainClass": "Homework.againstallodds",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
             "name": "Launch Lab6_6",
             "request": "launch",
             "mainClass": "Lab6.Lab6_6",

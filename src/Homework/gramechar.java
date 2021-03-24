@@ -1,5 +1,4 @@
 package Homework;
-
 import java.util.Scanner;
 public class gramechar {    
     public static void main(String[] args) {
@@ -11,5 +10,6 @@ public class gramechar {
             System.out.print("Ente your Charector : ");
             y = scan.nextLine();
         }while(!y.equals(x));
+        System.out.println("You win!");
     }
 }

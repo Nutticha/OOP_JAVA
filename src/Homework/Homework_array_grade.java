@@ -1,9 +1,5 @@
 package Homework;
-
-
-
 public class Homework_array_grade {
-
      public static void main(String[] args) {
          int[] score = new int[7];
          double total = 0;
@@ -42,15 +38,9 @@ public class Homework_array_grade {
                }
                else{
                     Grade = "F";
-               }
-     
-         
+               }        
           System.out.println("|\t" +i + "\t\t" + score[1] + "\t\t" + score[2]+ "\t\t" + score[3]+ "\t\t" + score[4]+ "\t\t" + score[5]+ "\t\t" + total + "\t\t" + Grade +"\t|");
         }
-        System.out.println("---------------------------------------------------------------------------------------------------------------------------------"); 
-      
-    }
-    
-           
-        
+        System.out.println("---------------------------------------------------------------------------------------------------------------------------------");       
+    }        
 }

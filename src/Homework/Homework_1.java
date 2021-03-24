@@ -1,7 +1,5 @@
 package Homework;
-
 import java.util.Scanner;
-
 public class Homework_1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -12,6 +10,5 @@ public class Homework_1 {
         
         f =(9/5)*c+32;
         System.out.println("Fahrenheit : " + f);
-        }
-    
+        }  
 }

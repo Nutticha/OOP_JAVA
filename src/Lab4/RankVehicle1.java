@@ -16,7 +16,6 @@ public class RankVehicle1 {
         else
             return v2;
     }
-
     public static void main(String[] args) {
         // Instantiate two vehicle1 objects using constructor with parameters
         Vehicle1 vehicle1 = new Vehicle1(1, 4, 16, 22);

@@ -1,9 +1,7 @@
 package Lab4;
-
 // File name : Lab4_4.java
 import java.util.Scanner;
 import java.text.DecimalFormat;
-
 public class Lab4_4 {
     public static void main(String args[]) {
         int total; // sum of grades

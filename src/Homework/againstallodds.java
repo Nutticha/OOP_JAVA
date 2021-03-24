@@ -1,5 +1,4 @@
 package Homework;
-
 import java.util.Scanner;
 public class againstallodds {
     public static void main(String[] args) {

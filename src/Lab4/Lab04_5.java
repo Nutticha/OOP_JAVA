@@ -1,9 +1,7 @@
 package Lab4;
-
 // File name : Lab4_5.java
 import java.util.Scanner;
 import java.text.DecimalFormat;
-
 public class Lab04_5 {
     public static void main(String args[]) {
         double amount; // amount on deposit at end of each year

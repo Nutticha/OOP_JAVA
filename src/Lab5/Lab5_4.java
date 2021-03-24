@@ -2,7 +2,6 @@ package Lab5;
 
 // File name : Lab5_4.java
 import javax.swing.JOptionPane;
-
 public class Lab5_4 {
     public static void main(String[] args) {
         int num , num1;

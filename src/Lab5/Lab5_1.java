@@ -1,9 +1,7 @@
 package Lab5;
-
 import java.text.DecimalFormat;
 // File Name : Lab5_1.java
 import java.util.Scanner;
-
 public class Lab5_1 {
     public static void main(String[] args) {
         double value;

@@ -1,5 +1,4 @@
 package Homework;
-
 import java.util.Scanner;
 public class Homework_if_03 {
     static double Distance , Dis;
@@ -14,8 +13,7 @@ public class Homework_if_03 {
         System.out.print("Enter Time period :");
         Timeperiod = scan.nextDouble();
         Calc(Distance , Timeperiod);
-    }
-    
+    }   
     public static void Calc(double Distance , double Timeperiod ){
         
         if(Distance <= 1){
@@ -39,12 +37,9 @@ public class Homework_if_03 {
         else {
             Dis = 8.50;
         }
-
         money = Timeperiod * 2;
         money2 = Distance * Dis;
         money3 = money + money2;
-
-
     }
 
     public static void main(String[] args) {
@@ -70,8 +65,5 @@ public class Homework_if_03 {
         System.out.println("Time period : " + Timeperiod + " bath");
         System.out.println("Service charge = Distance(bath) + Timeperiod(bath)");
         System.out.println("Service charge : " + money3);
-
-
-
     }
 }

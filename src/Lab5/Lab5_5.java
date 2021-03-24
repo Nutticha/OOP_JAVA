@@ -1,9 +1,7 @@
 package Lab5;
-
 // File name : Lab5_5.java
 import javax.swing.JOptionPane;
 import java.text.DecimalFormat;
-
 public class Lab5_5 {
     public static void main(String[] args) {
         String menu, choiceStr;

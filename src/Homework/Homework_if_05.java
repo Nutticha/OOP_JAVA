@@ -1,5 +1,4 @@
 package Homework;
-
 import java.util.Scanner;
 public class Homework_if_05 {
     static String name , lname;
