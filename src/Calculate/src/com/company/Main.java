@@ -1,7 +1,4 @@
-package com.company;
-
-import javafx.scene.shape.Circle;
-
+package Calculate.src.com.company;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -15,7 +12,7 @@ public class Main extends JFrame implements ActionListener {
     JLabel label2 = new JLabel();
     JButton addBtn,subBtn,mulBtn,divBtn,eqBtn;
     JPanel panel = new JPanel();
-    JButton Btn0 , Btn1,Btn2,Btn3,Btn4,Btn5,Btn6,Btn7,Btn8,Btn9,dotBtn,clearBtn,backBtn;
+    JButton Btn0 , Btn1,Btn2,Btn3,Btn4,Btn5,Btn6,Btn7,Btn8,Btn9,dotBtn,clearBtn,backBtn , Btnx , Btnx2 , Btnrx2 , Btnmod , Btn01 , Btnce;
     Calc cal  = new Calc();
     int done = 0;
 
@@ -30,70 +27,102 @@ public class Main extends JFrame implements ActionListener {
         c.add(textField);
         label2.setForeground(Color.ORANGE);
         c.add(label2);
-        addBtn = new JButton("+");
-        addBtn.addActionListener(this);
-        c.add(addBtn);
+    
+        Btnmod  = new JButton("%");
+        Btnmod .addActionListener(this);
+        c.add(Btnmod );
 
-        subBtn = new JButton("-");
-        subBtn.addActionListener(this);
-        c.add(subBtn);
+        Btnce  = new JButton("CE");
+        Btnce .addActionListener(this);
+        c.add(Btnce );
 
-        mulBtn = new JButton("*");
-        mulBtn.addActionListener(this);
-        c.add(mulBtn);
+        clearBtn = new JButton("C");
+        clearBtn.addActionListener(this);
+        c.add(clearBtn);
+
+        backBtn = new JButton("B");
+        backBtn.addActionListener(this);
+        c.add(backBtn);
+
+        Btnx = new JButton("1/X");
+        Btnx.addActionListener(this);
+        c.add(Btnx);
+
+        Btnx2 = new JButton("X2");
+        Btnx2.addActionListener(this);
+        c.add(Btnx2);
+
+        Btnrx2 = new JButton("√x");
+        Btnrx2.addActionListener(this);
+        c.add(Btnrx2);
 
         divBtn = new JButton("/");
         divBtn.addActionListener(this);
         c.add(divBtn);
 
-        Btn0 = new JButton("0");
-        Btn0.addActionListener(this);
-        c.add(Btn0);
-        Btn1 = new JButton("1");
-        Btn1.addActionListener(this);
-        c.add(Btn1);
-        Btn2 = new JButton("2");
-        Btn2.addActionListener(this);
-        c.add(Btn2);
-        Btn3 = new JButton("3");
-        Btn3.addActionListener(this);
-        c.add(Btn3);
-        Btn4 = new JButton("4");
-        Btn4.addActionListener(this);
-        c.add(Btn4);
-        Btn5 = new JButton("5");
-        Btn5.addActionListener(this);
-        c.add(Btn5);
-        Btn6 = new JButton("6");
-        Btn6.addActionListener(this);
-        c.add(Btn6);
         Btn7 = new JButton("7");
         Btn7.addActionListener(this);
         c.add(Btn7);
+
         Btn8 = new JButton("8");
         Btn8.addActionListener(this);
         c.add(Btn8);
+
         Btn9 = new JButton("9");
         Btn9.addActionListener(this);
         c.add(Btn9);
+
+        mulBtn = new JButton("*");
+        mulBtn.addActionListener(this);
+        c.add(mulBtn);
+
+        Btn4 = new JButton("4");
+        Btn4.addActionListener(this);
+        c.add(Btn4);
+
+        Btn5 = new JButton("5");
+        Btn5.addActionListener(this);
+        c.add(Btn5);
+
+        Btn6 = new JButton("6");
+        Btn6.addActionListener(this);
+        c.add(Btn6);
+
+        subBtn = new JButton("-");
+        subBtn.addActionListener(this);
+        c.add(subBtn);
+
+        Btn1 = new JButton("1");
+        Btn1.addActionListener(this);
+        c.add(Btn1);
+
+        Btn2 = new JButton("2");
+        Btn2.addActionListener(this);
+        c.add(Btn2);
+
+        Btn3 = new JButton("3");
+        Btn3.addActionListener(this);
+        c.add(Btn3);
+
+        addBtn = new JButton("+");
+        addBtn.addActionListener(this);
+        c.add(addBtn);
+
+        Btn01 = new JButton("+/-");
+        Btn01.addActionListener(this);
+        c.add(Btn01);
+
+        Btn0 = new JButton("0");
+        Btn0.addActionListener(this);
+        c.add(Btn0);
+
         dotBtn = new JButton(".");
         dotBtn.addActionListener(this);
         c.add(dotBtn);
-        clearBtn = new JButton("C");
-        clearBtn.addActionListener(this);
-        c.add(clearBtn);
-        backBtn = new JButton("B");
-        backBtn.addActionListener(this);
-        c.add(backBtn);
-
 
         eqBtn = new JButton("=");
         eqBtn.addActionListener(this);
         c.add(eqBtn);
-
-
-
-
 
 
 
@@ -225,7 +254,7 @@ public class Main extends JFrame implements ActionListener {
     public static void main(String[] args) {
 	    Main window = new Main();
 	    window.setTitle("Calculate");
-	    window.setSize(310,320);
+	    window.setSize(230,300);
 	    window.setDefaultCloseOperation(EXIT_ON_CLOSE);
 	    window.setResizable(false);
 	    window.setVisible(true);

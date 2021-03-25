@@ -1,4 +1,4 @@
-package com.company;
+package Calculate.src.com.company;
 
 public class Calc {
     private float num;
