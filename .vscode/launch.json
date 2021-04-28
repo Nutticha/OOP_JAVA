@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Lab12_05",
+            "request": "launch",
+            "mainClass": "Lab12_05",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "Calculate.src.com.company.Main",
