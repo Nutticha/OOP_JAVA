@@ -35,7 +35,7 @@ public class test {
             Grade = "F";
        }        
 
-       System.out.println("Score :" + score + "Grade : " + Grade);
+       System.out.println("Score :" + score + " Grade : " + Grade);
     }
     
 }

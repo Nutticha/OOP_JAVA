@@ -1,10 +1,10 @@
-
+package Lab12;
 // File Name : Lab12_04.java
 import java.awt.event.*;
 import java.awt.*;
 import javax.swing.*;
 
-public class Lab12_04 extends JFrame implements ActionListener, MouseListener, Mo useMotionListener{
+public class Lab12_04 extends JFrame implements ActionListener, MouseListener, MouseMotionListener{
     private int lastx = 0, lasty = 0;
     private JButton redBtn, greenBtn, blueBtn, clearBtn;
     // private Graphics g;

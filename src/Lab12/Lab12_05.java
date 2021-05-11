@@ -1,4 +1,4 @@
-
+package Lab12;
 // File Name : Lab12_05.java
 import java.awt.event.*;
 import java.awt.*;

@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Draw",
+            "request": "launch",
+            "mainClass": "Homework.Draw",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Final01_6206021620035",
+            "request": "launch",
+            "mainClass": "Final01_6206021620035",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch Final01_620602162003",
+            "request": "launch",
+            "mainClass": "Final01_620602162003",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "OOP_JAVA_80e88508"
+        },
+        {
+            "type": "java",
             "name": "Launch Lab12_05",
             "request": "launch",
             "mainClass": "Lab12_05",
